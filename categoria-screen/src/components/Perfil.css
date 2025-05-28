@@ -1,0 +1,23 @@
+.perfil{
+    margin: 0 auto;
+    width: 1020px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.foto{
+    width: 100px;
+    clip-path: circle()
+}
+.perfil div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.perfil div button{
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--verde-claro);
+    border: 1px solid var(--verde-claro);
+    border-radius: 10px;
+    padding: 7px;
+}

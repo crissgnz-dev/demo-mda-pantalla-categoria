@@ -1,0 +1,51 @@
+:root {
+    /* Colores */
+    --verde-claro: #83C442;
+    --verde-oscuro: #4A9D4A;
+    --font-negro: #101010;
+    --blanco: #FFFFFF;
+    --gris-bordes: #595959;
+    --rojo-error: #D80000;
+    --azul-important: #0800E1;
+    --amarillo-warning: #F8F01E;
+    --font-errorandwarning: #525252;
+    /* Tipografia */
+    --tipografia: "Inter Tight", serif;
+    /* Box Shadow */
+    --box-shadow: 0px 4px 63.9px -29px #00000025;
+    /* Border */
+    --border-radius: 10px;
+    /* Animaciones y Transiciones*/
+    --transicion: all .3s ease-in-out;
+    /* Width & Heights */
+    --width-container: min(85%, 1600px);
+    /* Font Sizes PC */
+    --titular-h1-size-pc: 36px;
+    --subtitular-h3-size-pc: 24px;
+    --titulartasa-h2-pc: 50px;
+    --p-size-pc: 18px;
+    --span-size-pc: 18px;
+    /* Font Sizes Mobile (< 768px) */
+    --titular-h1-size-mobile: 28px;
+    --subtitular-h3-size-mobile: 20px;
+    --titulartasa-h2-mobile: 35px;
+    --p-size-mobile: 16px;
+    --span-size-mobile: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}

@@ -37,7 +37,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter Tight", sans-serif;
+  font-family: var(--tipografia)
+}
+body{
+  margin: 15px;
 }
 img{
   height: 100%;

@@ -1,18 +1,20 @@
 import "./Categorias.css"
 export default function Categorias({img, title, text, require}) {
     return (
-      <main>
-        <div>
-            <div className="imagenFondo">
-                <img src={img} alt="" />
+      <div className="itemCategoria" style={{
+        backgroundImage: `url(${img})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}>
+          <div className="gradiente">
+            <div className="contenido">
+              <h3>{title}</h3>
+              <p>{text}</p>
+              <div className="importante"><div className="circulo" /><p>{require}</p></div>
+              <button className="botonAvellaneda">Postularme</button>
             </div>
-            <div className="">
-                <h4>{title}</h4>
-                <p>{text}</p>
-                <p className="importante">{require}</p>
-                <button>Postularme</button>
-            </div>
-        </div>
-      </main>
+          </div>
+      </div>
     )
 }
+

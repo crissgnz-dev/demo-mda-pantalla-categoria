@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Perfil />
+      <div className='centrar'><Perfil /></div>
       <Formulario />
     </>
   )

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Categorias from './Categorias';
+import Check from '../assets/Check';
 import "./Formulario.css"
 import img1 from '../assets/img1.png';
 import img2 from '../assets/img2.png';
@@ -32,31 +33,33 @@ export default class Formulario extends Component {
   render() {
 
     return (
-      <>
-        <h2>Completá el formulario y postulate</h2>
-        <nav>
-            <li className='item activo'>Personales</li>
-            <li className='item activo'>Estudios</li>
-            <li className='item activo'>Experiencia</li>
-            <li className='item'>Categoria</li>
-        </nav>
-        <div className='eleccion'>
-            <p>Seleccioná una o más categorías para postularte, una vez clickeado el botón “Postularme” seleccione “Finalizar”</p>
-            <div>
-                {
-                categorias.map(categoria => {
-
-                    <Categorias
-                     img={categoria.img}
-                     title={categoria.title}
-                     text={categoria.text} 
-                     require={categoria.require}
-                    />
-                 })
-                }
-            </div>
+      <div>
+        <div className='cabecera'>
+          <p id='titulo'>Completá el formulario y <b>postulate</b></p>
+          <nav>
+              <li className='item activo'>Personales</li>
+              <li className='item activo'>Estudios</li>
+              <li className='item activo'>Experiencia</li>
+              <li className='item'>Categoria</li>
+          </nav>
         </div>
-      </>
+
+
+        <div className='eleccion'>
+            <p className='textoEleccion'>Seleccioná una o más categorías para postularte, una vez clickeado el botón “Postularme” seleccione “Finalizar”</p>
+            <div className='seccionCategoria'>
+                {categorias.map((categoria) => (
+                  <Categorias 
+                    img={categoria.img}
+                    title={categoria.title}
+                    text={categoria.text}
+                    require={categoria.require}
+                  />
+                ))}
+            </div>
+            <button className='botonAvellaneda finalizar'><Check/><p>Finalizar proceso de postulación</p></button>
+        </div>
+      </div>
     )
   }
 }

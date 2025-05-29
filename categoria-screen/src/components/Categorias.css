@@ -1,3 +1,62 @@
+
+
+.itemCategoria{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 322px;
+    height: 502px;
+    color: white;
+    border-radius: 32px;
+    overflow: hidden;
+    border-radius: 32px;
+    margin: 15px;
+}
+
+.gradiente{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-bottom: 39px;
+    gap: 12px;
+}
+
+.contenido h3{
+    font-size: 24px;
+}
+
+.circulo{
+    display: flex;
+    justify-content: center;
+    clip-path: circle(50%);
+    height: 14px;
+    width: 14px;
+    background-color: var(--amarillo-warning);
+}
 .importante{
-    color: var(--amarillo-warning)
+    color: var(--amarillo-warning);
+    display: flex;
+    align-items: center;
+}
+.importante p{
+    margin-left: 15px;
+}
+
+.botonAvellaneda{
+    color: white;
+    cursor: pointer;
+    border-radius: 17px;
+    border: 0;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--verde-claro);
 }

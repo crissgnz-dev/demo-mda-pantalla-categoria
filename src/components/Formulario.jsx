@@ -36,12 +36,12 @@ export default class Formulario extends Component {
       <div>
         <div className='cabecera'>
           <p id='titulo'>Completá el formulario y <b>postulate</b></p>
-          <nav>
+          {/*<nav>
               <li className='item activo'>Personales</li>
               <li className='item activo'>Estudios</li>
               <li className='item activo'>Experiencia</li>
               <li className='item'>Categoria</li>
-          </nav>
+          </nav>*/}
         </div>
 
 

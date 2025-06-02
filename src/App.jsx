@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/*<Header />*/ }
       <div className='centrar'><Perfil /></div>
       <Formulario />
     </>

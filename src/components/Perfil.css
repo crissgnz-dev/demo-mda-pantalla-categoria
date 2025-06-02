@@ -1,3 +1,14 @@
+@media (max-width: 480px) {
+  .centrar .perfil{
+    max-width: auto;
+    grid-template-columns: auto;
+    gap: 15px;
+  }
+  .perfil .boton button{
+    width: 149px
+  }
+}
+
 .perfil{
     margin-top: 55px;
     padding: 10px;
@@ -26,13 +37,18 @@
     color: #454545;
     font-size: 22px;
 }
-.perfil div button{
+.boton{
+    width: 100%;
+    display: grid;
+    align-content: center;
+}
+.boton button{
     cursor: pointer;
     font-size: 20px;
     background-color: transparent;
     color: var(--verde-claro);
     border: 1px solid var(--verde-claro);
     border-radius: 10px;
+    width: 149px;
     padding: 8px;
-    width: 148px;
 }

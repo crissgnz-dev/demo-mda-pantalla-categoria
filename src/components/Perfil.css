@@ -1,12 +1,18 @@
-@media (max-width: 480px) {
-  .centrar .perfil{
-    max-width: auto;
-    grid-template-columns: auto;
-    gap: 15px;
-  }
-  .perfil .boton button{
-    width: 149px
-  }
+@media (min-width: 426px){
+    #root .perfil{
+        grid-template-rows: none;
+        grid-template-columns: auto 1fr auto;
+    }
+    .perfil .foto{
+        width: 85px;
+        height: 85px;
+    }
+    .perfil .titulos h3{
+        font-size: var(--titular-h1-size-pc);
+    }
+    .perfil .titulos p {
+        font-size: var(--subtitular-h3-size-pc);
+    }
 }
 
 .perfil{
@@ -14,15 +20,17 @@
     padding: 10px;
     max-width: 1020px;
     width: 100%;
-    background-color: #fafafa;
+    margin: auto;
+    background-color: #eee;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: 20px;
     border-radius: 22px;
+    flex-wrap: wrap;
 }
 .foto{
-    width: 76px;
-    height: 76px;
+    width: 100px;
+    height: 100px;
     clip-path: circle()
 }
 .perfil div{
@@ -31,11 +39,11 @@
     justify-content: center;
 }
 .titulos h3{
-    font-size: 32px;
+    font-size: var(--titulartasa-h2-mobile);
 }
 .titulos p{
     color: #454545;
-    font-size: 22px;
+    font-size: var(--subtitular-h3-size-mobile);
 }
 .boton{
     width: 100%;

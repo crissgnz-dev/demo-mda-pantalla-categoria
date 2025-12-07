@@ -1,20 +1,16 @@
-@media (max-width: 480px) {
-  #root .logo {
-    width: 55%;
-  }
-}
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(0deg, rgb(131, 196, 66), rgb(179, 212, 56));
+  background: linear-gradient(0deg, #83c442, #b3d438);
   border-radius: 15px;
   box-shadow: rgba(170, 170, 170, 0.27) 0px 5px 15.8px 5px;
   width: 100%;
-  height: 100px;
+  height: 75px;
+  margin-bottom: 20px;
 }
 
 .logo {
-  width: 25%;
+  width: 200px;
 }

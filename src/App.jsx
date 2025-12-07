@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      {/*<Header />*/ }
-      <div className='centrar'><Perfil /></div>
+    <Header />
+    <Perfil />
       <Formulario />
     </>
   )

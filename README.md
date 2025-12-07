@@ -1,12 +1,82 @@
-# React + Vite
+# 🏛️ Pantalla Categoría - Portal Avellaneda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Desarrollo de un componente de interfaz de usuario clave para el proceso de selección de postulantes en el portal de empleo del Municipio de Avellaneda.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto fue desarrollado durante mi pasantía en el Municipio de Avellaneda y representa un punto crítico en el flujo de registro de nuevos postulantes al sistema de empleo local.
 
-## Expanding the ESLint configuration
+El objetivo principal fue:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Diseñar y construir una pantalla funcional y accesible que permita a los usuarios seleccionar la categoría de trabajo deseada (Ej. Operario, Técnicos, etc.) después de completar el registro de sus datos personales. El proyecto priorizó el uso de componentes de React para una experiencia fluida y garantizó la total adaptabilidad (Responsive Design) para ser utilizado por ciudadanos en cualquier dispositivo.**
+
+---
+
+## ✨ Características Principales
+
+Esta sección destaca las soluciones técnicas y de diseño implementadas.
+
+| Habilidad Demostrada | Descripción de la Implementación |
+| :--- | :--- |
+| **Integración en Flujo Crítico** | Desarrollo de una pantalla que se inserta como paso fundamental dentro del proceso de alta de postulantes del sistema interno municipal. |
+| **Componentes Reutilizables (React)** | Creación de componentes modulares con **React.js** para representar cada categoría de postulación, facilitando la escalabilidad si se añaden nuevas categorías en el futuro. |
+| **Diseño Responsive Puro** | Implementación de **CSS3** y media queries para asegurar que la disposición de las categorías (ej. formato de tarjeta o lista) se adapte perfectamente a *desktop*, *tablet* y móvil. |
+| **Usabilidad (UX/UI)** | Diseño de tarjetas o botones de selección claros y de buen tamaño para optimizar la experiencia del usuario, reduciendo errores y clics innecesarios. |
+| **Estética Institucional** | Coherencia visual con la identidad de marca del portal "Portal Avellaneda" y las guías de estilo del Municipio. |
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* **React.js** (Desarrollo basado en componentes y manejo de estado)
+* **JavaScript (ES6+)**
+* **HTML5** (Estructura de la interfaz)
+* **CSS3** (Estilizado y diseño responsivo)
+* **Git & GitHub**
+
+---
+
+## 🚀 Instalación y Ejecución Local
+
+### Nota Importante
+Este componente se desarrolló para integrarse en un sistema web más amplio del municipio. Para ejecutar la pantalla de forma aislada:
+
+### Prerrequisitos
+
+* Node.js (versión 16+)
+* Un gestor de paquetes (npm o yarn)
+
+### Pasos
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone https://github.com/crissgnz-dev/demo-mda-pantalla-categoria.git
+    ```
+2.  **Navega al directorio del proyecto:**
+    ```bash
+    cd demo-mda-pantalla-categoria
+    ```
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+4.  **Inicia la aplicación (ejecutando el entorno de React):**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 🧑‍💻 Autor y Contexto
+
+* **Rol:** Pasante en Desarrollo Front-End
+* **Lugar:** Av. Belgrano 1124, Avellaneda
+* **Fecha:** 13/05/2025 - 09/06/2025
+* **Nombre:** Gonzalez Cristian 
+* **GitHub:** [@crissgnz-dev]
+
+---
+
+## ⚖️ Licencia
+
+Derechos Reservados - Uso Interno Municipal.
